@@ -8,7 +8,7 @@ public class Alfabeto extends Pictograma {
     public Alfabeto(String origen, String[] letras, String interpretacion) {
         super(origen);
         this.interpretacion = interpretacion;
-        letras = letras;
+        Alfabeto.letras = letras;
     }
     
     @Override
@@ -27,7 +27,7 @@ public class Alfabeto extends Pictograma {
         }
 
     public void setLetras(String[] letras) {
-        letras = letras;
+        Alfabeto.letras = letras;
         }
 
     public String getInterpretacion() {
